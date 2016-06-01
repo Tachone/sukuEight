@@ -8,7 +8,7 @@ It runs on Linux with kernel version >= 2.6.28.
 八数码使用A*算法+康托展开优化完成，<br>
 输入格式为12436x857,空格用x代替，默认求解的目的结果为12345678x，返回结果为操作的方向字符串最短集合<br>
 
-    依赖于muduo网络库，使用cmake编译
+    依赖于muduo网络库和boost库，使用cmake编译
     核心代码位于examples中。
     博客 http://blog.csdn.net/nk_test/article/details/51525015 中有更加详细的说明。
 
