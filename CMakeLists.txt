@@ -8,7 +8,7 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE "Release")
 endif()
 
-set(CXX_FLAGS
+set(CXX_FLAGS 
  -g
  # -DVALGRIND
  # -DMUDUO_STD_STRING
