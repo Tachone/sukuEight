@@ -1,8 +1,9 @@
+# 高性能数独和八数码问题求解服务器，使用muduo网络库构建
+
 Muduo is a multithreaded C++ network library based on
 the reactor pattern.
 It runs on Linux with kernel version >= 2.6.28.
 
-高性能数独和八数码问题求解服务器，使用muduo网络库构建<br>
 数独使用Dancing Links算法求解 ，<br>
 输入格式为a:000000.00000(81个数字，a:标记为可选内容)<br>
 八数码使用A*算法+康托展开优化完成，<br>
